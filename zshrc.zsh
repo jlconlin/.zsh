@@ -33,6 +33,9 @@ sourceFile $ZSHRC/zsh/python.zsh
 sourceFile $ZSHRC/zsh/proxy.zsh
 sourceFile $ZSHRC/zsh/bindkey.zsh
 
+sourceFile $ZSHRC/bashrc.lanl/proxy.bash
+sourceFile $ZSHRC/bashrc.lanl/fixCal.bash
+
 alias ls='ls -AG'
 alias ll='ls -lhG'
 
