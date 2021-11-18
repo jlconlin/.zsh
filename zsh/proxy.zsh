@@ -4,8 +4,8 @@ proxy(){
 	case $1 in
 		start)
       echo "setting proxy..."
-			export http_proxy="$PROXY_SERVER"
-			export https_proxy="$PROXY_SERVER"
+			export http_proxy="http://$PROXY_SERVER"
+			export https_proxy="https://$PROXY_SERVER"
       export ftp_proxy="$PROXY_SERVER"
 			export HTTP_PROXY=$http_proxy
 			export HTTPS_PROXY=$https_proxy
