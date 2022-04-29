@@ -36,6 +36,6 @@ sourceFile $ZSHRC/zsh/bindkey.zsh
 sourceFile $ZSHRC/bashrc.lanl/proxy.bash
 sourceFile $ZSHRC/bashrc.lanl/fixCal.bash
 
-alias ls='ls -AG'
-alias ll='ls -lhG'
+alias ls='ls -AF --color=auto'
+alias ll='ls -lhF --color=auto'
 
