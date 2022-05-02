@@ -20,3 +20,6 @@ function pdf2png(){
     sips -s format png ${1} --out ${2}
   fi
 }
+
+alias ls='ls -AG'
+alias ll='ls -lhG'
