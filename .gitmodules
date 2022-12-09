@@ -9,4 +9,4 @@
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 [submodule "bashrc.lanl"]
 	path = bashrc.lanl
-	url = ssh://git@xcp-stash.lanl.gov:7999/~jlconlin/bashrc.lanl.git
+	url = ssh://git@re-git.lanl.gov:10022/jlconlin/bashrc.lanl.git
